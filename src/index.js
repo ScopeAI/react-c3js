@@ -45,7 +45,7 @@ class C3Chart extends React.Component {
   }
 
   componentDidMount() {
-    c3 = require('c3');
+    c3 = require('c3/c3.js');
     this.updateChart(this.props);
   }
 

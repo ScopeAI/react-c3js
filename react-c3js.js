@@ -40,7 +40,7 @@ var C3Chart = function (_React$Component) {
   _createClass(C3Chart, [{
     key: 'componentDidMount',
     value: function componentDidMount() {
-      c3 = require('c3');
+      c3 = require('c3/c3.js');
       this.updateChart(this.props);
     }
   }, {
